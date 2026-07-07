@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+<title> Atom, Hole and Cyclone</title>
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<h1> Atom, Hole and Cyclone</h1>
+<h2> -Exploring the universe🪐-</h2>
+<h3 id = "rule">NOTE:</h3>
+<h3 id = "rule">In this game, Atom represents "Rock", Hole represents "Paper" and Cyclone represents "Scissors" </h3>
+<p> Choose an Anomaly to alter the space-time continuum... </p>
+<p> Wins: <span class = "wins">0</span> | Losses: <span class = "losses">0</span> | Draws: <span class = "draws">0</span></p>
+    <div id = "choices">
+        <button onclick = "playGame('⚛️')">⚛️</button><span>Atom</span>
+        <button onclick = "playGame('🕳️')">🕳️</button><span>Hole</span>
+        <button onclick = "playGame('🌀')">🌀</button><span>Cyclone</span>
+    </div>
+    
+    <p id = "battle-log">Awaiting space-time alignment...</p>
+    <div id = "Cosmic-Arena"> 
+        <div id = "Player" class = "cosmic">⏳</div>
+        <div class = "vs-text">VS</div>
+        <div id = "Computer" class = "cosmic">⏳</div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
